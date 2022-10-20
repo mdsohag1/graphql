@@ -1,0 +1,17 @@
+-------------------------------------
+query getAllusers{
+  users{
+    id
+    firstname
+    lastname
+    email
+  }
+}
+
+----------------------
+query getAllQuotes{
+  quotes{
+    name
+    by
+  }
+}
